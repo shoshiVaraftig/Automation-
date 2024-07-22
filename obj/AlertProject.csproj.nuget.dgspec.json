@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "restore": {
+    "T:\\הנדסת תוכנה\\שנה ב\\קבוצה ב\\תלמידות\\שושי ורהפטיג\\AlertProject\\AlertProject\\AlertProject.csproj": {}
+  },
+  "projects": {
+    "T:\\הנדסת תוכנה\\שנה ב\\קבוצה ב\\תלמידות\\שושי ורהפטיג\\AlertProject\\AlertProject\\AlertProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "T:\\הנדסת תוכנה\\שנה ב\\קבוצה ב\\תלמידות\\שושי ורהפטיג\\AlertProject\\AlertProject\\AlertProject.csproj",
+        "projectName": "AlertProject",
+        "projectPath": "T:\\הנדסת תוכנה\\שנה ב\\קבוצה ב\\תלמידות\\שושי ורהפטיג\\AlertProject\\AlertProject\\AlertProject.csproj",
+        "packagesPath": "C:\\Users\\shufra\\.nuget\\packages\\",
+        "outputPath": "T:\\הנדסת תוכנה\\שנה ב\\קבוצה ב\\תלמידות\\שושי ורהפטיג\\AlertProject\\AlertProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shufra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.15, )"
+            },
+            "IKVM": {
+              "target": "Package",
+              "version": "[8.8.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Microsoft.Playwright.NUnit": {
+              "target": "Package",
+              "version": "[1.27.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.22.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[126.0.6478.12600, )"
+            },
+            "SeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
